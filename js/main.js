@@ -7,7 +7,7 @@ $(function(){
 var buttons = document.querySelectorAll('.toggle__inner-title');
 var blocks = document.querySelectorAll('#toggle-item');
 
-  for(let i = 0; i < buttons.length; i++) {
+  for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('mouseover', myToggle);
   }
 
